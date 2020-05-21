@@ -32,7 +32,7 @@
                     <h4 class="info">Después de llenar el formulario de registro, deberás crear un NIP de cuatro dígitos, <b>guarda este NIP</b>
                         para que al ingresar a tu campus, lo introduzcas junto con tu matrícula en el sistema que trabajará el lector de huellas 
                         dactilares para reconocer tu pre-registro, por último, colocarás tu dedo indice en el lector para concluir tu registro. 
-                        Una vez completados estos pasos, únicamente necesitarás colocar tu dedo en el lector para ingresar al campus.
+                        Una vez completados estos pasos, únicamente necesitarás colocar tu dedo en el lector cada vez que ingreses a tu campus.
                     </h4>
 
 

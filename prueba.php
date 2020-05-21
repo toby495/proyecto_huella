@@ -3,11 +3,9 @@
 
 include("matricula.php");
 
-
-
 $destinatario = $matricula . "@estudiantes.uv.mx";
 $asunto = "Confirmación UV";
-$mensaje = "https://wonderful-volhard-c756f7.netlify.app";
+$mensaje = "Para continuar con tu registro entra a: https://bit.ly/FormularioUV";
 
 
 $header = "From: noreply.uv.mx" . "\r\n";

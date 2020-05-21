@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <div class="contenedor">
+    <div class="contenedor fadeIn">
         <main class="registro-correo">
             <div class="presentacion">
                 <div class="contenido-presentacion">
@@ -26,7 +26,10 @@
 
             <div class="formulario">
                 <h1 class="titulo">Registrate</h1>
-                <form action="" method="POST">
+                <form action="conexion.php" method="POST">
+                    <p class="texto-formulario">Ingresa tu matrícula</p>
+                    <input class="input-formulario" type="text" name="matricula" required>
+                    <br>
                     <p class="texto-formulario">Ingresa tu nombre</p>
                     <input class="input-formulario" type="text" name="nombre" required>
                     <br>
@@ -44,7 +47,7 @@
                     </div>
 
                     <div class="btn-codigo">
-                        <input type="submit" value="Registrarme" class="button" id="registro" name="registrarse">
+                        <input type="submit" value="Enviar" class="button" id="registro" name="registrarse">
                     </div>
 
                 </form>
@@ -52,8 +55,6 @@
         </main>
     </div>
 </body>
-<?php
-include("registrar.php");
-?>
+
 
 </html>

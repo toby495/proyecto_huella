@@ -1,0 +1,17 @@
+.fadeIn{
+animation-fill-mode: both;
+-webkit-animation-duration: 1.5s;
+animation-duration: 1.5s;
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+}
+@keyframes fadeIn{
+    from{
+        -webkit-transform: translate3d(0,-100%,0);
+        transform: translate3d(0,-100%,0);
+    }
+    to{
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+}
